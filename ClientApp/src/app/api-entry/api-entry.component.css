@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@700&display=swap');
+
+.entry-content {
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.entry-title {
+  background-color: #6F7E95;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.entry-title span {
+  font-family: 'Roboto Slab', serif !important;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: inline-block;  
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.entry-attributes {
+  position: absolute;
+  height: 20px;
+  width: 300px;
+  display: block;
+}
+
+.entry-auth {
+  float: left;
+}
+
+.entry-auth span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0px 10px 0px 10px;
+}
+
+.entry-https img {
+  float: right;
+  margin: 5px 5px 0px 0px;
+}
+
+.entry-category {
+  height: 51px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.entry-category span {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #525D6E;
+  background-color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-style: italic;
+  padding: 0px 5px 2px 5px;
+}
+
+.entry-description {
+  height: 115px;
+  line-height: 115px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.entry-description span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #22272e;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0px 10px 0px 10px;
+}
+
+.entry-link {
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #6F7E95;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 6px;
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+}
+
+
+.entry-link:hover {
+  background-color: #282d35;
+}
+
+.entry-link span {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0px 0px 2px 0px;
+  pointer-events: none;
+}
+
+.flip-container {
+  perspective: 1000px;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+  margin-top: 25.5px;
+}
+
+.flip-container, .front, .back {
+  width: 300px;
+  height: 300px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
+}

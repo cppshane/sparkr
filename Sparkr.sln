@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparkr", "Sparkr.csproj", "{4850CEC3-AC03-47D1-A207-2CE5136EC97A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4850CEC3-AC03-47D1-A207-2CE5136EC97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4850CEC3-AC03-47D1-A207-2CE5136EC97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4850CEC3-AC03-47D1-A207-2CE5136EC97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4850CEC3-AC03-47D1-A207-2CE5136EC97A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B70AB800-C66F-479B-B5E2-DDA59B7884B9}
+	EndGlobalSection
+EndGlobal
