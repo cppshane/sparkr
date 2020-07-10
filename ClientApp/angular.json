@@ -25,7 +25,10 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/vanta/vendor/three.r95.min.js",
+              "node_modules/vanta/dist/vanta.clouds2.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,3 +1,11 @@
+#vanta-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
 #logo-img {
   width: 75px;
   height: 75px;
@@ -8,12 +16,22 @@
   margin-top: 50px;
 }
 
-body {
-  background: #EEF3F7;
-  text-align: center;
+app-api-entry {
+  margin-top: 250px;
 }
 
-body p {
-    font-size: 11px;
-    margin-top: 12px;
+.title {
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
+
+.title p {
+  font-size: 11px;
+  margin-top: 12px;
+}
+
