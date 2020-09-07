@@ -14,14 +14,18 @@ export class HomeComponent implements OnInit {
   }
 
   initVantaEffect() {
-    VANTA.CLOUDS2({
+    VANTA.WAVES({
       el: "#vanta-background",
       mouseControls: true,
       touchControls: true,
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
-      texturePath: "assets/img/noise.png"
+      color: 0xbebecf,
+      shininess: 14.00,
+      waveHeight: 30.00,
+      waveSpeed: 0.20,
+      zoom: 1.75
     })
   }
 }
