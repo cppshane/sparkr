@@ -97,8 +97,8 @@
   border-radius: 6px;
   text-align: center;
   margin: 0px 5px 5px 5px;
+  cursor: pointer;
 }
-
 
 .entry-link:hover {
   background-color: #282d35;
