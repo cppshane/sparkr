@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@700&display=swap');
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+app-home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#logo-img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+  position: absolute;
+  z-index: 3;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.title p {
+  font-size: 11px;
+  margin-top: 12px;
+  font-family: 'Roboto Slab', serif !important;
+  font-size: 14px;
+}
+
+.api-entries {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  z-index: 2;
+  margin-top: 250px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#vanta-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}

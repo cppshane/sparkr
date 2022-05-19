@@ -1,0 +1,52 @@
+<div class="flip-container" style="float: left;" (click)="flipContainerClick()">
+  <div class="flipper" [ngStyle]="{'transform': rotationYStyle}">
+    <div class="front">
+      <div class="entry-content">
+        <div class="entry-attributes">
+          <div class="entry-auth">
+            <span>{{ publicApiEntryTop?.Auth }}</span>
+          </div>
+          <div class="entry-https">
+            <img src="{{ getHttpsImage(publicApiEntryTop) }}" />
+          </div>
+        </div>
+        <div class="entry-title">
+          <span>{{ publicApiEntryTop?.API }}</span>
+        </div>
+        <div class="entry-category">
+          <span>{{ publicApiEntryTop?.Category }}</span>
+        </div>
+        <div class="entry-description">
+          <span>{{ publicApiEntryTop?.Description }}</span>
+        </div>
+        <div class="entry-link" (click)="goToLink(publicApiEntryTop?.Link)">
+          <span>Documentation</span>
+        </div>
+      </div>
+    </div>
+    <div class="back">
+      <div class="entry-content">
+        <div class="entry-attributes">
+          <div class="entry-auth">
+            <span>{{ publicApiEntryBottom?.Auth }}</span>
+          </div>
+          <div class="entry-https">
+            <img src="{{ getHttpsImage(publicApiEntryBottom) }}" />
+          </div>
+        </div>
+        <div class="entry-title">
+          <span>{{ publicApiEntryBottom?.API }}</span>
+        </div>
+        <div class="entry-category">
+          <span>{{ publicApiEntryBottom?.Category }}</span>
+        </div>
+        <div class="entry-description">
+          <span>{{ publicApiEntryBottom?.Description }}</span>
+        </div>
+        <div class="entry-link" (click)="goToLink(publicApiEntryBottom?.Link)">
+          <span>Documentation</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
