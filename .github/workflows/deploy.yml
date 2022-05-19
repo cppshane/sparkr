@@ -36,6 +36,5 @@ jobs:
           PORT:  ${{ secrets.PORT }}
           PASSWORD: ${{ secrets.PASSWORD }}
         with:
-          source: "./sparkr"
+          source: "./dist/sparkr"
           target: "/var/www/sparkr.dev"
-          strip_components: 2  
