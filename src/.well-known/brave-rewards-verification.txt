@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shaneduffy.io
+Token: 920c089a25b3e5da5decff4f570ab3cd8ea4f5efa6b5501771cd0c99afc4b091
